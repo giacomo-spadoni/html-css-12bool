@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.padding {
+    padding: 1rem;
+}
+
+.first-section {
+    color: white;
+}
+
+.second-section {
+    color: white;
+    margin-top: 1rem;
+}
+
+.blue-box {
+    background-color: rgb(84, 84, 255);
+    padding: 1rem;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.green-box {
+    background-color: rgb(84, 255, 84);
+    padding: 1rem;
+    border: 1px solid rgb(84, 84, 255);
+    text-align: center;
+    vertical-align: auto;
+}
